@@ -1,0 +1,465 @@
+.mat-toolbar{
+    position:absolute;
+    background-color: darkslategray;
+    height: 92px;
+}
+
+span{
+    margin-left: 300px;
+    margin-right: 511px;
+}
+
+.spacer{
+    flex: 0 0 auto;
+}
+
+.bar{
+    width: 30px;
+    height: 37px;
+}
+
+.mat-icon{
+    width: 46px;
+}
+
+.image{
+    border-radius: 26px;
+    height: 33px;
+    width: 33px;
+    position: absolute;
+    left: 1285px;
+}
+
+ng-sidebar-container {
+    height: 100vh;
+}
+
+::ng-deep .ng-sidebar {
+    background-color:#8ba2a2;
+    width: 200px;
+    padding: 2em 3em;
+}
+
+img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 87px;
+}
+
+.sideBtn{
+    border-radius: 50px;
+    height: 35px;
+    width: 98px;
+    position: absolute;
+    left: 89px;
+    top: 147px;
+    background-color: aqua;
+}
+
+.lab1{
+    margin-top: 173px;
+    margin-left: -6px;
+    margin-right: 44px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.lab2{
+    margin-top: 0px;
+    margin-left: -6px;
+    margin-right: 31px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: #3e3636;
+    font-size: 11px;
+}
+
+.pi{
+    margin-top: 0px;
+    margin-left: -6px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: #3e3636;
+    font: initial;
+}
+
+.nme{
+    width: 274px;
+}
+
+.join{
+    margin-top: 0px;
+    margin-left: -6px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: #3e3636;
+    font: initial;
+}
+
+.clndr{
+    width: 252px;
+}
+
+.bmark{
+    margin-top: 0px;
+    margin-left: -6px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: #3e3636;
+    font: initial;
+}
+
+.bmarks{
+    width: 252px;
+}
+
+.visited{
+    margin-top: 25px;
+    color: white;
+}
+
+.cricpic{
+    border-radius: 5px;
+    height: 127px;
+    width: 186px;
+    position: absolute;
+    left: 41px;
+    top: 419px;
+}
+
+.sideBtn1{
+    border-radius: 50px;
+    height: 35px;
+    width: 98px;
+    position: absolute;
+    left: 89px;
+    top: 575px;
+    background-color: aqua;
+}
+
+section{
+    background-color:  darkslategray;
+    margin-left: 284px;
+    margin-top: -571px;
+}
+
+.set{
+    color: white;
+    margin-left: 32px;
+    font-size: 21px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.settings{
+    display: inline-block;
+    list-style: none;
+}
+
+.prof{
+    display: inline-block;
+    color:  aqua;
+    margin-top: 96px;
+    margin-left: -8px;
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+.act{
+    display: flex;
+    color: #222222;
+    margin-top: -20px;
+    margin-left: 190px;
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+.ps{
+    display: flex;
+    color: #222222;
+    margin-top: -20px;
+    margin-left: 407px;
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+.not{
+    display: flex;
+    color: #222222;
+    margin-top: -20px;
+    margin-left: 639px;
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+.us{
+    display: flex;
+    color:  #222222;
+    margin-top: -20px;
+    margin-left: 822px;
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+.uname{
+    margin-left: 35px;
+    color: white;
+    display: flex;
+    margin-top: 33px;
+}
+
+.ipticon .mat-icon{
+    display: flex;
+    margin-top: -24px;
+    margin-left: 185px;
+    color: aqua;
+}
+
+.field{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid aqua;
+    background-color: darkslategray;
+    color: aqua;
+    margin-left: 33px;
+    margin-top: 11px;
+}
+
+.date{
+    margin-left: 374px;
+    color: white;
+    display: flex;
+    margin-top: -50px;
+}
+
+.ipticon1 .mat-icon{
+    display: flex;
+    margin-top: -24px;
+    margin-left: 526px;
+    color: aqua;
+}
+
+.field1{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid aqua;
+    background-color: darkslategray;
+    color: aqua;
+    margin-left: 374px;
+    margin-top: 11px;
+}
+
+.lang{
+    margin-left: 716px;
+    color: white;
+    display: flex;
+    margin-top: -50px;
+}
+
+.ipticon2 .mat-icon{
+    display: flex;
+    margin-top: -24px;
+    margin-left: 870px;
+    color: aqua;
+}
+
+.field2{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid aqua;
+    background-color: darkslategray;
+    color: aqua;
+    margin-left: 717px;
+    margin-top: 11px;
+}
+
+.gender{
+    margin-left: 35px;
+    color: white;
+    display: flex;
+    margin-top: 53px;
+}
+
+.mat-checkbox{
+    margin-left: 36px;
+    margin-top: 19px;
+}
+
+.cbex{
+    margin: 0 10px;
+}
+
+.date1{
+    margin-left: 374px;
+    color: white;
+    display: flex;
+    margin-top: -50px;
+}
+
+.ipticon4 .mat-icon{
+    display: flex;
+    margin-top: -24px;
+    margin-left: 526px;
+    color: aqua;
+}
+
+.field4{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid aqua;
+    background-color: darkslategray;
+    color: aqua;
+    margin-left: 374px;
+    margin-top: 11px;
+}
+
+.propic{
+    margin-left: 717px;
+    color: white;
+    display: flex;
+    margin-top: -50px;
+    position: absolute;
+}
+
+
+.cricpic2{
+    border-radius: 5px;
+    height: 212px;
+    width: 186px;
+    position: absolute;
+    left: 1001px;
+    top: 398px;
+}
+
+.spc{
+    margin-left: 35px;
+    color: white;
+    display: flex;
+    margin-top: 48px;
+}
+
+.fb{
+    margin-left: 35px;
+    color: aqua;
+    display: flex;
+    margin-top: 22px;
+}
+
+.fb1 .mat-icon{
+    display: flex;
+    margin-top: -24px;
+    margin-left: 111px;
+    color: #185fe0;
+}
+
+.tw{
+    margin-left: 172px;
+    color: aqua;
+    display: flex;
+    margin-top: -20px;
+}
+
+.fa {
+    font-size: 17px;
+    width: 17px;
+    height: 17px;
+    border-radius: 75px;
+    margin-left: 229px;
+    display: flex;
+    margin-top: -19px;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.ln{
+    margin-left: 295px;
+    color: aqua;
+    display: flex;
+    margin-top: -18px;
+}
+
+.ln1 .fa{
+    font-size: 20px;
+    width: 20px;
+    height: 22px;
+    border-radius: 75px;
+    margin-left: 357px;
+    display: flex;
+    margin-top: -21px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.inst{
+    margin-left: 422px;
+    color: aqua;
+    display: flex;
+    margin-top: -21px;
+}
+
+.inst1 .fa{
+    font-size: 20px;
+    width: 20px;
+    height: 22px;
+    border-radius: 75px;
+    margin-left: 505px;
+    display: flex;
+    margin-top: -21px;
+}
+
+.fa-instagram {
+    background: #980a8d;
+    color: white;
+  }
+
+  .bodyBtn{
+    border-radius: 50px;
+    height: 36px;
+    width: 178px;
+    margin-top: 57px;
+    display: flex;
+    background-color:#a8bdbd;
+    margin-left: 34px;
+}
+
+.bodyBtn1{
+    border-radius: 20px;
+    height: 35px;
+    width: 138px;
+    margin-top: -36px;
+    display: flex;
+    background-color: aqua;
+    padding: 1px 20px;
+    margin-left: 408px;
+}
+
+.upld{
+    margin-left: 719px;
+    color: aqua;
+    display: flex;
+    margin-top: 5px;
+}
+
+.del{
+    margin-left: 860px;
+    color: aqua;
+    display: flex;
+    margin-top: -22px;
+}
+
+
+

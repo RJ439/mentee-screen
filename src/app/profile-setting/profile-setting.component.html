@@ -1,0 +1,111 @@
+<header>
+    <mat-toolbar>
+        <span>Travello</span>
+        <div class="spacer"></div>
+        <a mat-button>Browse</a>
+        <a mat-button>Wishlist</a>
+        <a mat-button>Bookmark</a>
+        <a class="bar">|</a>
+        <mat-icon>notifications</mat-icon>
+        <mat-icon>chat</mat-icon>
+        <img class="image"
+            src="https://yt3.ggpht.com/a/AATXAJwXAmjgPxBwYXq4apyYnznnh6wzE6Z72CIq_VLv=s900-c-k-c0xffffffff-no-rj-mo">
+    </mat-toolbar>
+    <ng-sidebar-container>
+        <ng-sidebar [opened]="opened">
+            <img
+                src="https://yt3.ggpht.com/a/AATXAJwXAmjgPxBwYXq4apyYnznnh6wzE6Z72CIq_VLv=s900-c-k-c0xffffffff-no-rj-mo">
+            <button class="sideBtn" mat-raised-button>Edit Profile</button>
+            <div class="lab1">
+                <label>Last Visit</label>
+                <label>Place</label>
+            </div>
+            <div class="lab2">
+                <p>3 months ago</p>
+                <p>Indonesia</p>
+            </div>
+            <div class="pi">
+                <mat-icon>person_outline</mat-icon>
+                <p class="nme">Yasin Arafat Ovi</p>
+            </div>
+            <div class="join">
+                <mat-icon>date_range</mat-icon>
+                <p class="clndr">Joined about June 2016</p>
+            </div>
+            <div class="bmark">
+                <mat-icon>bookmark_border</mat-icon>
+                <p class="bmarks">35 Bookmark</p>
+            </div>
+            <div class="visited">
+                <label>Recent Visited</label>
+            </div>
+            <img class="cricpic" src="https://spyn.co/blog/wp-content/uploads/hd-free-wallpapers.jpg">
+            <button class="sideBtn1" mat-raised-button>Log Out</button>
+        </ng-sidebar>
+    </ng-sidebar-container>
+</header>
+<section>
+    <span class="set">Settings</span>
+    <ul class="settings">
+        <li><a class="prof" href="#">Profile Setting</a></li>
+        <li><a class="act" href="#">Account Setting</a></li>
+        <li><a class="ps" href="#">Privacy & Security</a></li>
+        <li><a class="not" href="#">Notifications</a></li>
+        <li><a class="us" href="#">Usage & Statistic</a></li>
+    </ul>
+    <div class="form-field">
+        <label class="uname">User Name</label>
+        <div class="ipticon">
+            <input type="text" placeholder="Yasin Arafat Ovi" class="field">
+            <mat-icon>person_outline</mat-icon>
+        </div>
+        <label class="date">Joined Date</label>
+        <div class="ipticon1">
+            <input type="text" placeholder="1st June 2016" class="field1">
+            <mat-icon>date_range</mat-icon>
+        </div>
+        <label class="lang">Language</label>
+        <div class="ipticon2">
+            <input type="text" placeholder="English (USA)" class="field2">
+            <mat-icon>language</mat-icon>
+        </div>
+        <label class="gender">Gender</label>
+        <div class="ipticon3">
+            <mat-checkbox class="cbox" [(ngModel)]="male">Male</mat-checkbox>
+            <mat-checkbox class="cbox" [(ngModel)]="female">Female</mat-checkbox>
+        </div>
+        <label class="date1">Birthdate</label>
+        <div class="ipticon4">
+            <input type="text" placeholder="18 July, 1990" class="field4">
+            <mat-icon>date_range</mat-icon>
+        </div>
+        <label class="propic">Choose Profile Picture</label>
+        <div class="procric">
+            <img class="cricpic2"
+                src="http://static2.bornrichimages.com/cdn2/500/500/91/c/wp-content/uploads/s3/2013/08/vk_sj2xk_300x300.jpg">
+        </div>
+        <label class="spc">Social Profile Connection</label>
+        <div class="fb1">
+            <label class="fb">Facebook</label>
+            <mat-icon>facebook</mat-icon>
+        </div>
+        <div class="tw1">
+            <label class="tw">Twitter</label>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        <div class="ln1">
+            <label class="ln">LinkdIn</label>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <div class="inst1">
+            <label class="inst">Instagram</label>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <div class="bdyBtn">
+            <button class="bodyBtn" mat-raised-button>Deactivate My Account</button>
+            <button class="bodyBtn1" mat-raised-button>Save Changes</button>
+            <label class="upld">Upload Now</label>
+            <label class="del">Delete</label>
+        </div>
+    </div>
+</section>
