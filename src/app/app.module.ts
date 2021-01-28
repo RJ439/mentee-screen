@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { HashLocationStrategy, LocationStrategy} from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { HashLocationStrategy, LocationStrategy} from '@angular/common';
     FlexLayoutModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    HttpClientModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
